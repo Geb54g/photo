@@ -5,9 +5,9 @@ def gallery(request):
     return render (request,'pics/gallery.html')
 
 
-def viewpic(request,pk):
-    return render (request,'pics/pics.html')
+def viewphoto(request, pk):
+    return render (request,'pics/photo.html')
 
 
-def addpic(request):
+def addphoto(request):
     return render (request,'pics/add.html')
