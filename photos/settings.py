@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'pics.apps.PicsConfig',
+    'cloudinary_storage',
+    'cloudinary',
 ]
 
 MIDDLEWARE = [
@@ -118,6 +120,12 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 MEDIA_URL ='/images/'
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME':'gebs',
+    'API_KEY':'364344722915987',
+    'API_SECRET':'YslD45qKqUcF1R7uduygbz4Txb4'
+}
 
 STATICFILES_DIRS =[
     BASE_DIR/ 'static'
