@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rv+^rq(v8_8!47!j7&ohlin5g3t3s*f^%safg03pq1%aj1f+vs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://gebs-pics-gallery.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
